@@ -1,0 +1,1 @@
+Need twilioNotif and detect.py from https://www.pyimagesearch.com/2019/03/25/building-a-raspberry-pi-security-camera-with-opencv/

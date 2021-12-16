@@ -1,0 +1,12 @@
+{
+    "thresh" : 50,
+    "open_threshold_seconds" : 60,
+    "aws_access_key_id": "AKIASLQFDAJO23Z7E5Q7",
+    "aws_secret_access_key": "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",
+    "s3_bucket": "whistlerat-ring-cam",
+
+    "twilio_sid": "SK64d70f6598ed196abb13fa998bbea94d",
+    "twilio_auth": "86ff52ea5ccc4264d0d240672d5f4659",
+    "twilio_to": "+1-909-217-8592",
+    "twilio_from": "+1-225-401-6348"
+}
