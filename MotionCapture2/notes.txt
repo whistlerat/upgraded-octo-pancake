@@ -1,0 +1,4 @@
+libcamera-still
+libcamera-vid
+
+libcamera-still -o (output) output.jpg (name)

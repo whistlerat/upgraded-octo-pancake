@@ -1,0 +1,19 @@
+YOU CAN RUN THIS JUST ON THE LAPTOP!!
+YOUR LAPTOP HAS A CAMERA THIS IS DEADASS SO COOL
+Link: https://www.pyimagesearch.com/2015/05/25/basic-motion-detection-and-tracking-with-python-and-opencv/?_ga=2.155092152.1802761815.1639631304-1540203251.1639631304
+
+** Don't forget to run the .venv so you have OpenCV and imutils (pyimage's library)
+CTRL + SHIFT + P -> "Python: Select Interpreter" -> select the .venv to run imutils
+https://code.visualstudio.com/docs/python/environments
+
+Create an environment in windows:
+python -m venv .venv
+
+python -m (command) basically dictates which python to use to run that command
+- in this case, it's venv
+
+#NOTE TO SELF:
+figure out how to just write a bash file to do the venv setup...
+
+###GOAL: Find the activate script
+VSCODE: source .venv/Scripts/activate
