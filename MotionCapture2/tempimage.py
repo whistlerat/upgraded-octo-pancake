@@ -3,7 +3,7 @@ import uuid
 import os
 
 
-class TempImaeg:
+class TempImage:
     def __init__(self, basePath="./", ext=".jpg"):
         # construct the file path
         self.path = "{base_path}/{rand}{ext}".format(
