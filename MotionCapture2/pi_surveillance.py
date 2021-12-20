@@ -110,7 +110,7 @@ for f in camera.capture_continuous(rawCapture, format="bgr", use_video_port=True
     # check to see if the room is occupied
     if text == "Occupied":
         # check to see if enough time has passed between uploads
-        if (timestamp - lastUploaded).seconds >= conf["min_upload_secs"]:
+        if (timestamp - lastUploaded).seconds >= conf["min_upload_seconds"]:
             #  increment the motion counter
             motionCounter += 1
 
