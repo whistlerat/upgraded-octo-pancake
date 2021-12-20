@@ -83,6 +83,7 @@ for f in camera.capture_continuous(rawCapture, format="bgr", use_video_port=True
             continue
         # compute the bounding box for the cnotour, draw it on the frame,
         # and update the text
+        (x, y, w, h) = cv2.boundingRect(c)
         cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
         text = "Occupied"
 
